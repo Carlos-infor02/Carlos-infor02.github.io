@@ -1,0 +1,49 @@
+/* Definições de variáveis de cores */
+:root {
+  --cor-primaria: rgb(255, 255, 255);
+  --cor-secundaria: rgb(197, 156, 250);
+  --cor-terciaria: rgb(176, 96, 207);
+}
+
+/* Resetando estilos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+/* Estilos para o cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 170px;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+}
+
+/* Estilos para a seção de materiais e atividades */
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 70px;
+  background-color: rgba(117, 199, 231, 0.089);
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  display: flex;
+  flex-direction: column;
+}
